@@ -2,4 +2,4 @@
 slide_type: 'shout'
 ---
 
-## See you nex month at WarsawJS
+## See you next month at WarsawJS
