@@ -1,4 +1,4 @@
-.highlight { background-color: #fafafa }
+.highlight {}
 .c { color: #999988; font-style: italic } /* Comment */
 .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .k { color: #000000; font-weight: bold } /* Keyword */
@@ -62,4 +62,6 @@
 .lineno {
   background-color: #f6f6f6;
   padding: 0.5em;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #f6f6f6;
 }
