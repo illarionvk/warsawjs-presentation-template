@@ -34,7 +34,7 @@ title: "WarsawJS | Responsive images the easy way"
     </section>
 
     {% for post in site.posts reversed %}
-      <section class="slide">
+      <section class="slide {{ post.slide_type }}">
         <div>
           {{ post.content }}
         </div>
