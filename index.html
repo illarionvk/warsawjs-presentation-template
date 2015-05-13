@@ -28,6 +28,12 @@
         </div>
     </section>
 
+    {% for post in site.posts %}
+      <section class="slide">
+        {{ post.content }}
+      </section>
+    {% endfor %}
+
     <section class="slide">
         <div>
             <h2>Plain Text on Your Slides</h2>
