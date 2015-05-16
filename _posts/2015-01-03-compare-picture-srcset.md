@@ -22,6 +22,6 @@
   </tr>
   <tr>
     <td>fallback requires extra markup</td>
-    <td><code>src</code> attribute is the fallback</td>
+    <td>"src" attribute is the fallback</td>
   </tr>
 </table>
