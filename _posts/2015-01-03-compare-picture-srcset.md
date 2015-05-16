@@ -6,10 +6,10 @@
 <table>
   <tr>
     <th scope="col">
-      <code><picture></code>
+      <code>&lt;picture&rt;</code>
     </th>
     <th scope="col">
-      <code><img></code> with srcset
+      <code>&lt;img&rt;</code> with srcset
     </th>
   </tr>
   <tr>
