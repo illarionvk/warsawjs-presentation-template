@@ -1,0 +1,97 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Welcome</title>
+    <link rel="stylesheet" href="../vendor/normalize.css" />
+    <link rel="stylesheet" href="../vendor/foundation.min.css" />
+    <script src="../vendor/modernizr.js"></script>
+
+    <style>
+      .RespImages-itemImage {
+        display: block;
+        border: 2px solid #303030;
+      }
+
+      .RespImages-itemContainer {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 100%;
+        background-color: green;
+      }
+
+      .RespImages-itemContainer > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+      }
+
+      .csstransforms .RespImages-itemContainer > img {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) translateZ(0);
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="row">
+      <div class="large-12 columns">
+        <h1>Intrinsic ratio example</h1>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div class="medium-4 columns">
+        <div class="RespImages-itemContainer">
+          <img class="RespImages-itemImage lazyload"
+               src="http://placehold.it/150x70.png/303030/ffffff&text=LQIP"
+               data-srcset="http://placehold.it/150x70.jpg 150w,
+                 http://placehold.it/300x150.jpg 300w,
+                 http://placehold.it/600x300.jpg 600w"
+               data-sizes="auto"
+               alt="" />
+        </div>
+      </div>
+
+      <div class="medium-4 columns">
+        <div class="RespImages-itemContainer">
+          <img class="RespImages-itemImage lazyload"
+               src="http://placehold.it/150.png/303030/ffffff&text=LQIP"
+               data-srcset="http://placehold.it/150.jpg 150w,
+                 http://placehold.it/300.jpg 300w,
+                 http://placehold.it/600.jpg 600w"
+               data-sizes="auto"
+               alt="" />
+        </div>
+      </div>
+
+      <div class="medium-4 columns">
+        <div class="RespImages-itemContainer">
+          <img class="RespImages-itemImage lazyload"
+               src="http://placehold.it/150x300.png/303030/ffffff&text=LQIP"
+               data-srcset="http://placehold.it/150x300.jpg 150w,
+                 http://placehold.it/300x600.jpg 300w,
+                 http://placehold.it/600x1200.jpg 600w"
+               data-sizes="auto"
+               alt="" />
+        </div>
+      </div>
+
+    </div>
+
+    <script src="../vendor/respimage.min.js"></script>
+    <script src="../vendor/lazysizes.min.js"></script>
+
+  </body>
+</html>
